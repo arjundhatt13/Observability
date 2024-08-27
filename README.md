@@ -1,4 +1,15 @@
-# Observability
-The underlying multi-asset model, testing files, and empirical study data for the paper "[The Observability of Systemic Risk through a Proxy Asset]([url](https://www.researchgate.net/publication/383457681_The_Observability_of_Systemic_Risk_through_a_Proxy_Asset))".
+# Observability of Systemic Risk
 
-The MATLAB files contain the bulk of the code used in the paper. The inner-workings of the MATLAB code are discussed in the A1_READ_ME.m file. The R files contain the statistical tests and methods used to evaluate the empirical study data. The Excel file contains the empirical study data.
+## Overview
+This repository contains the implementation of the multi-asset jump-diffusion model used in the paper "[The Observability of Systemic Risk through a Proxy Asset](https://www.researchgate.net/publication/383457681_The_Observability_of_Systemic_Risk_through_a_Proxy_Asset)." The model integrates a systemic risk factor with several conditionally independent idiosyncratic factors to estimate the behavior of ordinary assets.
+
+## Contents
+- **Model Code**: Python scripts implementing the multi-asset jump-diffusion model.
+- **Testing Files**: Scripts for testing the model's accuracy and performance using various approaches.
+- **Empirical Study Data**: Datasets used for the empirical analysis in the paper.
+
+## Usage
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/Systemic-Risk-Proxy-Asset.git
+   cd Systemic-Risk-Proxy-Asset
